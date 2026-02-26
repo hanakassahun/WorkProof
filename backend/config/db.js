@@ -13,4 +13,4 @@ const connectDB = async () => {
     }
 };
 
-module.exports = connectDB;
+module.exports = connectDB; // This file sets up the connection to the MongoDB database using Mongoose. It exports a function that can be called to establish the connection when the application starts.
